@@ -1,0 +1,15 @@
+# Define the version of docker compose
+version: "3.9"
+
+# Define the services
+services:
+  # Define the app service
+  app:
+    # Build the app from the Dockerfile
+    build: .
+    # Map the port 5000 of the container to the port 5000 of the host
+    ports:
+      - "5000:5000"
+    # Set the environment variable for the port
+    environment:
+      - PORT=5000

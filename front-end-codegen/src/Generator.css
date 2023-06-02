@@ -1,0 +1,92 @@
+/* Generator.css */
+
+.generator {
+    max-width: 100vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .generator h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .generator form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .generator label {
+    font-weight: bold;
+  }
+  
+  .generator input {
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+.chat-bubble {
+  /* Set a fixed height and width for the chat bubble */
+  width: 100vw;
+  max-height: 80vh;
+  /* Add some padding and margin for spacing */
+  padding: 10px;
+  margin: 10px;
+  /* Add some border and background for styling */
+  /* border: 1px solid black; */
+  background: white;
+  /* Add some overflow property to enable scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+  
+  .generator button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .generator .output {
+    margin-top: 20px;
+  }
+  
+  .generator .output h2 {
+    text-align: center;
+  }
+  
+  .generator .output p {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .output pre {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 80vw;
+  }
+  
+  .output pre::before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f0f0;
+    border-bottom: 10px solid transparent;
+  }
+  
+  
