@@ -1,5 +1,5 @@
 # ML
-HuggingFace Model served torchserve
+HuggingFace Model
 
 1. Run the backend -> 
 In the folder for the backend
